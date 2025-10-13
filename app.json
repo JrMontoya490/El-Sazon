@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "el-sazon",
+    "slug": "snack-af571596-cadd-413f-b274-c7607765046c",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/LogoElSazon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.jrmontoya490.snackaf571596cadd413fb274c7607765046c",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": "trabajo de catedra conexión estable a firebase",
+    "extra": {
+      "eas": {
+        "projectId": "e6368db9-f705-4e84-a18d-bd6ffc00b88b"
+      }
+    }
+  }
+}

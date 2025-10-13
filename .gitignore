@@ -1,0 +1,87 @@
+# ======================================
+# 🚀 React Native + Expo + EAS .gitignore
+# ======================================
+
+# --- Node ---
+node_modules/
+npm-debug.*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# --- Expo ---
+.expo/
+.expo-shared/
+.expo-dev/
+web-build/
+dist/
+.expo-cache/
+
+# --- Expo Snack (archivos temporales o empaquetados) ---
+.snack/
+.snackager/
+
+# --- EAS Build ---
+eas-build/
+build/
+dist/
+*.tar.gz
+
+# --- Metro bundler ---
+.metro/
+metro-cache/
+.cache/
+
+# --- Android ---
+android/.gradle/
+android/app/build/
+android/.idea/
+android/local.properties
+android/captures/
+android/gradlew
+android/gradlew.bat
+android/gradle/
+android/app/release/
+*.apk
+*.aab
+
+# --- iOS ---
+ios/Pods/
+ios/build/
+ios/DerivedData/
+ios/*.xcodeproj/
+ios/*.xcworkspace/
+*.ipa
+
+# --- Environment variables ---
+.env
+.env.local
+.env.*.local
+
+# --- Logs ---
+*.log
+logs/
+npm-debug.log*
+
+# --- VSCode / Editor ---
+.vscode/
+.idea/
+*.iml
+
+# --- macOS / Windows system files ---
+.DS_Store
+Thumbs.db
+*.swp
+
+# --- Temporary files ---
+tmp/
+temp/
+
+# --- Optional: fastlane or build outputs ---
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+
+# --- Optional: if using Expo Router (app directory cache) ---
+.expo-router/

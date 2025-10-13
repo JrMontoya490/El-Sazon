@@ -1,2 +1,0 @@
-# El-Sazon
-app ios
